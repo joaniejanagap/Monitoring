@@ -84,12 +84,16 @@ else if($_SESSION['user_type'] == "admin"){
 
   <table class=" content-table">
     <thead>
-      <th>Column 1</th>
-      <th>Column 2</th>
-      <th>Column 3</th>
-      <th>Column 4</th>
-      <th>Column 5</th>
-      <th>Column 6</th>
+      <th>Request ID</th>
+      <th>Date and Time</th>
+      <th>Organization Name</th>
+      <th>Specie Name</th>
+      <th>No. of seedlings requested</th>
+      <th>Area of Location</th>
+      <th>PENRO-Records</th>
+      <th>PENRO-HO</th>
+      <th>CENRO-Records</th>
+      <th>CENRO-CDS</th>
     </thead>
 
     <tbody>
@@ -112,6 +116,8 @@ else if($_SESSION['user_type'] == "admin"){
   
           echo '<tr> 
                     <td></td> 
+                    <td></td>
+                    <td></td>
                     <td></td>
                     <td></td>
                     <td></td>
